@@ -35,7 +35,7 @@ https://dl.dropbox.com/u/56145196/theme_editor.png
 https://dl.dropbox.com/u/56145196/theme_editor_add.png
 
 
-Plone.com redesign
+Plone.org redesign
 ------------------
 
 https://docs.google.com/file/d/0BzKEPxDtlwSzek9qTjdVSmZGU00/edit?usp=sharing
