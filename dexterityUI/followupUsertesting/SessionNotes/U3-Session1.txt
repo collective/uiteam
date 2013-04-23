@@ -1,0 +1,36 @@
+User3, Session 1
+
+User3 Demographics:
+Occupatuion: Web/UX Designer
+Web Usage and Technical Comfort: Authours web content regularly, versed in front-end development, owns multiple devices
+Experience with Plone: 1 year + 
+Knew about Dexterity but never used the TTW UI or the framework to create own custom content types
+
+
+Static mockups testing some ideas/design improvements 
+generated from Emerald Sprint.
+
+1. Homepage: Placement and caracteristics of Action buttons (size, color,ect.)
+2. Blank Table as default on start page.
+3. Variations on help text to see users' response (none, superficial change in wording styles, with added explicit context help)
+4. Verify if preiviously identified issues are problematic to oter users (# of sites, clone, Add New Sequence, )
+
+
+The "Add New Button" -- placement moved to left, just below the Title made the biggest positive impact; coloring it green didn't help more and U3 reported wondering what the green meant (if it had special meaning) - U3 stated that she didn't feel it was necessary and was confusing to her. When probed she said that proper layout and spacing was all she needed to distinguish the Add New from the other features on the page (when placed in page with the table).
+
+Putting in a blank table at the start page also was confusing for U3 -- she said since the table was the biggest thing and darker -- it made her
+look there first and ignore the button and the help text; seeing it empty confused her and in addition seeing the button with the table made her think that the behavior was different. 
+
+When she saw the button by itself with help text her expectation was spot on -- that when she clicked some type of form fields would show up. When she saw the layout with the button, help text and empty table -- her expectation was that on click of the button the table contents would populate via ajax. 
+
+Several variations of text and although U3 liked the version that said what Dexterity does (allows you to create custom content types for your site) - she actually liked the explicit wording of the original instructions. Also tried a variation w/o any help text to see if text was necessary at all -- and U3 reacted negatively to it -- she expected there to be some text and was uncomfortable when the page was too minimal.
+
+So -- for the front starting page -- moving the button and giving enough spacing in the placement and keeping some simple help text there seemed to be the most important positive changes. The other suggestions may not be necessary, but will validate against U4 to see.
+
+When shown, the populated table (after a content type is created for the first time), the "# of items" heading and the 2 export functions confused her but delete/clone made sense. There were some suggestions that "clone" should be "copy" etc. during our sprint but given that it basically makes sense to users and that Plone has another "copy" function that behaves differently -- it may be fine to keep it "clone". 
+
+When probed a bit -- U3 said that if she thought about it she supposed "# of items" would refer to the number of times the item showed up in her site -- so basically she got it right -- but the wording threw her off. U2 reported back that the feature would be useful to her, U1 that it should be taken out.
+Given that some users might use this function -- and that the core concept of the feature seems to make sense to a user if they thought about it, I'd say that it's probably just a problem with the wording -- I'll try with a variation re-worded so its more immediately clear what it does -- and see what happens in the next round. Maybe something like "# of items in site" so the user understands the context is the site?
+
+Also, I had a hunch that the sequence of events with the "Add New" (w/o any further prompts) would make some users think they were done before
+they were. This was my experience, the first time I did a dry run through the UI. U3 verifyed this hunch by reported the same thing. When I asked her what she thought when she saw the populated table after making her first content type she reported that "she was done" -- "she would then exit out of site setup and expect that she could add her content type to the site". When probed further, she noted that if the interface (help text) told her to continue she would know she wasn't done. But since the text just told here these items were available she said it looked like a "final screen". 

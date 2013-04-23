@@ -1,0 +1,480 @@
+User 3
+Session 2 w U3, Session 4 in Series
+Iteration 3 Testing Mockups
+3/06/2012
+
+Section 1 of Session 4: Intro/Process/Warm-Up:
+Intro, thanks, disclosure & permission, session overview to set user's expectation of process today: 
+
+Two Major Activities: 
+1. Showing Static mockups with variations (incorporating ideas from Sprint sessions as well as feedback from Sessions 1-3), focusing on major user task flows. 3 Parts: A. Start-Up /B. Add New Content Type /C. Editing Content Type.
+User will use talk-out-loud process to describe what they see and articulate what they would do. User is asked to give feedback on what works/doesn't work for them and provide comparison feedback between variations. Moderator will ask follow-up probing questions.
+
+2. Live Site Walk-through with current UI
+User will use talk-out-loud process to describe what they see and articulate what they would do. Moderator will "play computer" for user and click and act out user instructions. User is asked to give feedback on what works/doesn't work for them. Moderator will ask follow-up probing questions.
+
+**Faciliation Note: Improvement in this session in getting overview/warm-up shortened; 50% faster than Session 3. About 5 minutes.
+[Mockup failure] User feedback -- "shaded grey" is too subtle for user to pick up; not needed in the end.
+
+Section 2 of the Session: 
+Mockups and User Talk-out-loud Session w Variation Comparisons
+
+Part A of Mockups: [Start Page Sequences]
+
+Prompt to User: M: Describe what you see; and let me know what you can do by what you see on the screen.
+
+[Moderator shows variation incorporating U4's feedback from Session 3 -- help text with concrete examples]
+
+U3: "[reads text ... Dexterity content types.] OK. I see an explanation of what dexterity can do and a couple examples of what default content types are in Plone. And then I see the button 'Add New Content Type'. So, I would click on that to begin creating my custom content types."
+
+M: General thoughts? Easy, confusing?
+
+U3: "I think the text that gives a couple of examples is really helpful. And... let's see. No. This page seems straight forward. I would know exactly what to do." 
+
+M: Now I'm going to show you a variation.
+
+[Variation 2 is shown: dropdown feature to choose content types that can be duplicated in addition to the build from scratch option. From Sprint sessions and U4 feedback for alternatives to 'build-from-scratch']
+
+U3:"[Long Pause] Oh. OK. So for this one, uhm I see that there's an explanation that Dexterity allows you to create new custom content types. That's helpful. The text with the button is also very clear. The dropdown. [Reads text... duplicate a default Plone content type to edit] I see so I would uhm .. OK so I guess ...on this page ... oh ok so this page is for anything having to do with Dexterity content types so from here you can either add or duplicate -- so that does make sense. Uh and I'm guessing that because the dropdown is expanded (on the static mockup) I think this was a little bit much for me to read all at once, but it wouldn't normally be -- you would have to click on it first. I'm just curious what would happen once you select something on the dropdown. Yes. This does make sense."
+
+**Faciliation Note: False positive is introduced from mockup [expanded dropdown due to static screen throws user at first, but then they figure it out]**
+
+M: Asks user for general feedback.
+
+U3: "Explanation makes sense. The thing that would make me pause would be with the dropdown -- if this was a closed dropdown -- I wouldn't see until I click on the lable."
+
+U3: "Maybe if the dropdown text said - select a Plone content type. Please select a Content Type"
+
+[variation 3 is shown incorporating the existing table-layout and batch duplication function] 
+
+U3: "Here the table layout. looks like if I wanted to duplicate a default Plone content type to edit. I would check on a box and click on duplicate. I see that there are 3 files on the site and the description is a 'Plone default content type'. I think this makes sense. I was a little confused on why the 4th column is releavant -- the number in site. I'm thinking here, I'm here to make a new type based on an exisitng one -- I don't know why I need to know how many of the old one are in the site - I guess. It doesn't hurt ... but it kind of threw me off for a second. I was like -- what?.. What does that column mean? Oh I get it. It was like a second hesitation."
+
+[variation 4: table listing layout incorporating Sally's new-style/old-style labels from group sketching session]
+
+U3: "Uhh ... [reads text: here are your existing content types. Only new style content types can be edited.] OK. This is a little more confusing beacuse I'm not sure what 'new style' means and I see that they're all the listed as 'old style'. So it looks like I cannot edit anything so at this point I woudn't know what to do. Oh OK. This isn't even allowing you to clone it. So this is just a listing. I see, I see. OK. This is useful for an inventory of everything on the site. I don't know that ... because I can't do an action on it -- I was expecting to do something on this table. I don't know if it would go on the mainpage - or maybe on a subpage of dexterity where it says site inventory or something like that."
+
+M: Just to clarify and make sure I'm hearing you correctly. Are you saying that this feature [table listing showing inventory of all content types in a site] could possibley be useful for you but your questioning its placement in the sequence if things?  
+
+U3: "Yes. Exactly."
+
+[Moderator let's user know we're finished with the individual talk-out-loud    
+ feedback for each variation. Tells user we're going to do cross-comparisons.
+ Quickly show user variations and asks for what works/doesn't work]
+
+M: Let's step back now and do some cross-comparisons. Could you jsut pick out and give me your overall sense of what works/doesn't work for you?
+
+U3:"I like the description text. I think its helpful to have a very brief explanation. The first 2 lines on this first page I really liked [the specific examples of Plone content types]. I don't know that you would need to -- like let say you encorporate this with some of the later screens with the option to duplicate content types -- because then you see a listing or dropdown of content types --  so I don't know the second line is needed. But with this simple screen I think its helpful.  I like the button and the simple description just as an extra help for the user. Everything on the first page makes sense to me. I think that works."
+
+U3: "I kind of like the screen [table] after this [over the dropdown] I think, better ... I like being able to see everything listed all at once, instead of in the dropdown. It kind of goes back to what I was saying about when I was looking at the dropdown prior to this. I wasn't sure what I was going to see were until I expanded it. I like the select checkboxes -- its very clear what I'm going to select."
+
+U3: "I'm assuing this is more a power user and they are going to know what all the content types are. I don't know if its worth it to you to maybe include like what an example ... or what fields ... so for example if I'm coming here."
+
+U3: "I want to create a new content type. I want it to have this field, this field. and I want it to have a text-box to hold you know whatever data ... I might want to come in here and browse ... like -- well what do the default Plone content types already have? There's no way for me to see a stock -- like what a Collection or Event might have -- like what fields. Just an idea..."
+
+**Faciliation Note: At this point should ask user to explain how this would help her work ... Instead I asked a verifying question -- but it was leading; better would have been an open-ended question to understand how this relates to her work. 
+
+M: For you it would be useful if you weren't familar with something to be able to visualize what that thing would be? Is that what I'm hearing?
+
+U3: "So for example what if you had, just off the top of my head -- all these -- the type names were hyper-linked and you could click on them and maybe you could see like a ...just a stock Event that is populated with default information or something."
+
+U3: "I don't know if its worth it beause people who are in site-setup are mostly power users. so they may not have this issue."
+
+M: Is there anything that stands out for you as doesn't work about this page or works about this page? In particular.
+
+U3: "This particular page, like I said, the last column, I'm not sure if that is needed [# in site]. It doesn't hurt anything -- I think it just took me second to process."
+
+M: OK.
+
+U3: "Other than that I think this is fine. So this is only for duplicating default plone content types. What happens if I had already made some custom content types -- they would not show up in this list?"
+
+M: Well ... we'll go onto that one. Let me refrain from answering that question I think that will be a following sequence. But I think that's a good question to have. So is that something you're wondering about when you see this setup?
+
+U3: "When I see this I am thinking OK -- is there a seperate list for where my custom content types -- what if I want to clone that and work off of that."
+
+M: This one [showing the variation with old-style/new-style listed at start], just to verify. Did you find this one troubling or confusing?
+
+U3: "Yeah. Just because I was expecting to be able to take some sort of an action on something in -- especially uhm ... because there's a select column. This one I'm seeing now ... this one would include your custom types because it says: 'here are your existing content types' but becauese I dont have any right now it kind of feels like I'm stuck and don't know what to do."
+
+M: This one was problematic as well for you? [showing the drop-down list variation]
+
+U3: "I think it might help if the label text was changed but I think I'd still prefer the table listing."
+
+Part B of Mockups:[Adding New Content Type]
+
+Moderator gives overview of the next section and that the focus with be on the task flow for Adding a New Content Type: I'm going to show you something -- have you articulate what you see; but pay attention to transistions because they're meant to show a flow.
+
+[Variation 1: Screen 1]
+U3: "Yep. So, I see the description - what Dexterity allows you to do. Some examples and then an instruction to click on the button to begin. Yep. this makes sense".
+
+[Variation 1: Screen 2]
+
+U3: "I see a popup. It's labeled Add Content Type. OK. I see that type name and short name are required and the description is not required. The shortname has some instructions that says: 'leave as default for better maintainability' default text is auto-populated with ajax'. I see. OK. Yeah this makes sense. So I see that... I guess I was a little surprise that this is all I have to type in to create it but I'm curious to see what's going to happen once I click on Add."
+
+**Faciliation Note: Should have asked user to describe why they were surprised ...
+
+M: OK.
+
+[Variation 1: Screen 3] 
+
+U3: "OK so I clicked on Add? I typed in everything and clicked and I get to this page? Or ?"
+
+M: That's correct.
+
+U3: "So let's see ...[reads instruction text: These are the available custome content types.] OK. 'Edit the fields and setting by clicking the title link...'
+I'm assuming that 'title link' means the type name? uhm... 
+I guess that's a little confusing since the column is named something different than what the instruction is telling me to click on. But ... I can see that I can click on 'copy-of-page' if I wanted to continue editing. OK. That makse sense. I see see Dupicate, Delete, Export... and Export has ... OK. OK I'm not quite sure what those do but I think I know what to do next. I would click on copy-of-page."
+
+M: I'm going to a quick mini runthrough so you see it again [clicks through the sequence].
+
+[From screen 2] There's a popup. The feedback I got back from you -- I think if I am hearing correctly -- you were kinda suspect this was all you needed to do [from Screen 2] Is that correct?
+
+U3: "I was kinda surprised that it wasn't going to ask me for the fields at this point. I can obviously tell that its a two-step process. I'm wondering why its not just a new page with all of this and the fields all in one shot? 
+
+**Faciliation Note: At this point should have asked the user to go deeper. why would the new page be an advantage to this user.
+
+U3: "I mean this is nice too [referring to the popup] -- it chunks out what I need to to do so its now overwhelming -- so that's why I said I was curious to see what the subsequent screens would look like."
+
+M: Mainly it was this instruction set -- right here -- this phrasing that kind of threw you off because you wanted to see some consistencey with the title?
+
+U3 "Yes, exactly.""
+
+M: These three [Screen 3 buttons: Duplicate/Delete/Export] -- they were fine with you although these elements were kind of ambiguous to what they would be?
+
+U3: "Right, because I had not used those before -- but the construct of the checkboxes with the 3 buttons made sense to me."
+
+*** Design Insight: Currently the choices for creating all behavior and field settings are off-loaded to the user; which they may not be able to do if they don't have the understanding of the subject domaine for "content type creation". ***
+
+[Variation 2, Screen 2: Adding small set of behavior settings in popup -- insterted into the flow for Add New Content Type Task]
+
+U3: "[Reading text for Behavior Settings] OK. So think those ... I'm assuming allow discussions would mean that I can add comments ... 
+
+** [interruption to the session due to phone ringing] **
+
+U3: "OK. So I'm looking at the 3 checkboxes at the bottom. The first one ...I would assume that it  means that you could leave comments on the content type -- which makes sense. The second one -- assign an effective range or experation date -- if it was Event ... something that had an actual date associated with it, then maybe it would unpublish after the expiration date -- so that makes sense. The last one ... I'm not entirely sure what this is referring to -- I think the next/previous navigation phrase is confusing -- I'm not sure if there is a sequence of them that you can page back and forth between them ...so I think the wording can be more explicit. but yeah that makes sense."
+
+[shows variation 3: Screen 2 - more behaviors/settings are added via a stepped sequence in the pop-up flow]
+
+U3: "Oh -- I see it says 'Next' -- instead the previous one was add. I don't know if its different or not or just me but I would know what to do -- so I'd click next."
+
+[Variation 3, Screen 3]
+
+U3: "[reads title first 'Add Content Type'. starts reading help text] so this looks like a secondary screen. [reads all the text to self] -- OK so this uses Dublin Core standard. Build your own metadata ... [cont reading all text on page].OK for this one. This is is a little bit more complex. I think I would be comfortable with it just because you added the nice description text to the top that says that 'Complete is the default' so I would say oh OK -- I would choose a Complete set even though I might not be 100% sure what exactly I'm going to get with that. I would not build my own metatdata just because I wouldn't be share which ones to select. The standard Plone defaults makes sense. I would check both of those and click add."
+
+[Variation 4, screen 1: dropdown from the from page]
+U3: "So um my first question, when I select page from the previous does it just pop this popup."
+
+M: Yes.
+
+U3: "I think would like to see that just because what if I accidentally click something and I need to close the popup window?"
+
+[Variation 4, screen 3]
+
+U3:"So the dropdown remains above and I have copy-of-page that has been created. Yeah this makes sense."
+
+[Variation 5, Screen 1: Variation with Table listing Layout]
+
+U3: "Am I choosing something to Duplicate? I click on Duplicate."
+
+[Variation 5, Screen 2]
+
+U3: "Ah -- oh ...interesting (sounds surprised) ... so it just automatically duplicates it for me. OK. I guess I was expecting a popup just because I had seen previously. But it makes sense because in the the popup all it said was the name and then the shortname which is automatically generated plus a description which we already have ... so I guess theres no need for the popup it can just ... but then how ... OK if I clicked on page and duplicate it -- how will I change the name, now? Would I need to click on copy-of-page to rename?"
+
+M: If that was the case how would you feel about that?
+
+U3: "I don't know that I would like that it automatically names it for me. I think I like the popup version better just because I have control right away to name it whatever I want it to. Here its now a second extra step that I now need to click on and edit -- I don't want it to be called copy-of-page."
+
+M:[Probe user on batch funtion since the auto duplication feature allows for batch duplication]
+
+M: I want to have you think about this a little bit -- I want you to look at this [referrign to Variation 5, screen 2] and think about when you use of content types, in your experience with Plone. Would you have a usage of batch operations of copying Content Types?
+
+U3: "Uhm ...No. From what I can think of right now, I don't think see any reason to just batch copy without doing anything to it. You already have the existing content types. I don't need a copy of Page -- as Page already existis. I would only be interested in modifying it that in some way to take elements that I need for my new content type to create a new custom content type -- all in one shot. Instead of just copying it the existing copy of the page and naming it somthing else. So... no. I don't think there's much use."
+
+M: Would you say the act of Duplicating the content type ...
+is this a one-on-one type of operation? I'm trying to ask you a question without leading you..."
+
+** Faciliation Note: Moderator is stuggeling to find out if batch copying is something useful to the user, enough to justify what is an awkward interaction sequence. But doesn't want to lead the user. Probably would have been better to ask user to elaborate on what they mean by 'all-in-one shot' and use a more open-ended approach to find out more.
+
+U3: [User trying to guess what the question is] "Do I think that this is a useful operation? The ability to Duplicate a Content type? 
+
+M: uhmm.
+
+U3: "In this way?"
+
+M: In this way. 
+
+U3: "In this way. No. Because right now when I click Duplicate it automatically gave me a duplicate of the page with no option to edit anything [in sequence]. So now I have to go in a click on it and try to edit to add my customizations. Which I think is cumbersome. Just because like I said before -- there's no reason for me to copy a page just for copying it since it aready exists as a content type. So I think I prefer the popups -- just because A. I could change the names. I guess while your duplicating -- the popup sequences -- they didn't have any options for editing anything else I think it was just the names...  OK. here there's a little extra for editing -- I can toggle the basic behaviors setting. What would be more useful --I really wanted to build of let say a Page content type ... if I could have subsequnt screens that would allow me to edit what fields I wanted to keep from the page what new fields I wanted ... to have that as one entire sequence instead of just Duplicating the content type and thats it. As the end of the sequence.
+
+M: You want a little bit more of a structured flow ... is that correct?
+
+U3: "That kind of helps me -- well maybe lead me through a bit -- now here's what I've copied ... and what can I add to it what can I take away ... step me through creating my content type."
+
+[Moderator asks for a comparison of previous options]
+
+M: If you can give me a gut level reaction and sense of what works and doesn't work.
+
+[Shows First variation, Screen 2]
+
+U3: "So ... The popup is nice in that it does kinda chunks down what you need to do ... it leaves me like ... OK. now what do I need to do because I know I'm not done."
+
+M: Is your perception that there's gotta be more than what you see.
+
+U3: "Yes. I don't know if its better let say -- if you just did subsequent popups ... next, next, next ...and then finish it through the popup... or just do everything in a actual page. I'm not sure which one would be better but yeah here ..."
+
+U3: "So like this. [referring to variation 3, screen 3: with behaviors as part of popup screen sequence] This does help. I kind like that there is more here. I'm able to choose metadata, I'm able to choose standard Plone features --so I feel that I've done more before I actually Added."
+
+M: Do these feel appropriate in the sequence of how you are thinking about things? You said you expected to see fields?
+
+U3: "I did. Yeah. That was exactly what I was going to bring up. I was not expecting to see these at all. I don't have enough experience creating content types to know if these are normal things that would show up if you're trying to Add. But I was expecting you know title, description, and then like fields, maybe checkboxes to include certain things and and then adding that ... and I don't see any of that here.
+
+M: Some kind of scaffolding ... fill out general information, then your next sequence would be to work with the fields. 
+
+U3: "Yes."
+
+M: Anything else that stands out as working or not working?
+
+U3: "[aks moderator to return to variation with dropdown] A second hesitation since there are a lot of actions on the page. I had a second hesistation. My initial reaction was ohhh. what do I do?"
+
+Part C of Mockups: [Editing Existing Content Types]
+
+*** Design Insight: Current UI uses an implicit Edit (highlighted links) as part of the final result of an Add Sequence -- this seems to be less obvious to the first-time user rather than having an explicit Edit Tab ***
+
+[Variation 1, Screen 2]
+U3: "So -- wait this is for Editing? Am I starting from Adding?" (sounds confused)
+
+[Variation 1, Screen 3]
+U3: "OK. This is familiar it's been created -- it's called My Content. 
+I would click on it [the linked content type title] to edit. 
+
+[Variation 1, Screen 4]
+I see 3 tabs. Edit Settings, Edit Content Fields, Preview.[ Reads all the help text]"
+
+U3: "OK so I see everything that I already entered. I see the metadata. Its familiar... I would just select the (defaults)."
+
+Since there isn't a Save button. At this point I would click on the two tabs and see what they have there. I definately want to see the preview.
+
+** Faciliation Note: False positive due to mockup omitting save button **
+
+M: What do you think these mean in your own words. [tab labels]
+
+U3: "So edit settings make sense because I see that its like metadata, and some certain features you can turn on/off, advanced features. So I think that's appropriate for this tab.Edit content fields I would assume that's what I was looking for. The form fields. Let's make a label field. Let's make a secondary description field. Whatever custom fileds I would want to add or possibly remove. And then the Preview Tab ... I would expect to see. I'm not sure how that would work since you don't have anything filled out. But I guess I would expect to see the labels with some blank input areas. Kind of laid out how the content types is going to render."
+
+M: How would you say your understanding in distinguishing between what settings vs. fields would be?
+
+U3: "I think that's pretty clear. When I think of settings I'm not thinking of the actual layout of the content type itself. I'm thinking of all the behind the scene stuff. like what I see on this page. Metadata and turning on/off comments. Whereas edit content fields makes me think of only think of only layout. Where the input boxes are going, what the label titles are going to be, things like that. So I think this is pretty clear."
+
+M: How do feel that  ... in this sequecence (Editing) that the first (default tab show) is Settings? The first panel that opens up. The default is Settings? 
+
+U3: "Cause you know that I was looking for the fields. I actually would prefer that the Edit Content Fields to be the first, and then maybe the Preview. For me I think Settings is lower on the list of priority for what I would look at. I would want to go in and start customizing my fields and then seeing what it looks like and toggeling back and forth and then I would like to have settings as an afterthough. But that's just me."
+
+Section 3: Live Site Walkthrough of Current Dexterity UI
+
+Moderator explains to user that they will play the computer for the user and perform the manual actions (clicks, ect.) the user chooses. Like previously, user is asked to perform a think-out-loud technique and articulate what they see and what they are thinking as they encounter the UI and interactions.
+
+M: It would really valuable if you articulate what you see and where you have problems.
+
+[U3 gets to pop-up and reads container option.]
+
+U3: "I don't want that I just want a simple ..." [Clicks Add.]
+
+[Next screen is shown]
+U3: "I can see there is a floating button to the right."
+"Overview -- basically not much, just what I typed in. I would click on Fields."
+
+[Fields Tab is shown] 
+
+U3: "OK. [long pause] Alright. This is a little confusing. From the I Dublin Core Title text line string is confusing to me... I don't need to see all that. What happens if you click on that Title box? Are you able to edit? Same with description... OK. I guess I cannot change those. OK. It looks like those are required. Got it. I would click on Add New field."
+
+U3: [User intructs moderator to add title and help text] "'test field' and in help text I would put in 'help text'. And then I would click on the dropdown.
+
+[dropdown opens]
+
+U3: "OK that's confusing. What's the difference between 'text line' and 'text' and 'rich text'? 'Password'? (with emphasis) 'Multiple Choice'. uhm. I would ... I mean I might click on these out of curiosity? Like what happens if I click Password... [laughs]
+
+[user appears to have trouble with the options in the drop-down]
+
+M: At this point you would do a bunch of thow-aways because the interface seems like its not telling you ...?
+
+U3: "That's the thing. I would create a bunch of them just to see like what would I get -- if I put multiple choice what happens there? I would probably add a bunch of them just to see. So yeah, I would click on Add. What's going to happen here...""
+
+[screen refresh]
+
+U3: "I guess scroll down ... oh OK. whoa.. OK. So I would try to click on the little box first -- if I'm able to. The skinny one. And then I would try to type 'hello' or somthing. 
+
+M: [tried to complete user's instructions] Its not accepting text.
+
+U3: "So I would click on settings" [link in upper-right of field box]
+
+[a popup comes up]
+
+U3: "Oh. OK. in the possible values I would type in 1 in the first line, then 2, then 3. Then I would click Save.
+
+[Moderator completes actions, page refreshes]
+
+[screen shows the Fields Page, user looks at update]
+
+U3: "OK. I'm not quite sure what just happened."
+
+[moderator clicks around for feedback] 
+
+U3: "Oh Ok -- so you can actually click on it. OK. I would add another field and just a regular text one. I would pick Rich Text and hit Add. Although I'm still not sure what the differene is."
+
+[Moderator completes actions for Rich Text and hits Save. On Save there is an Error Message Popup:
+Confirm Navigation
+Your form has not been saved all changes you have made will be lost.
+Action Buttons: Stay on this Page button vs. Leave this Page ]
+
+U3: "Stay on this Page." 
+
+[screen shows the Fields Page]
+"I don't what just happned."
+
+U3: "Did it create?"
+
+M: No.
+
+U3: "Sad. OK. Maybe it didn't like Rich Text (user decideds to try again but abandons 1st choice) So I type in Text Field Again and then use the same title and description, this time choosing choice 2 - I guess I would just pick text this time -- I'm thinking text line is just one line and I want more than that... so I'm thinking text. Now click on Add."
+
+[Moderator performs actions. Error prompt shows up -- telling user to pick another short name since the current one is already used]
+
+U3: "What!? Ok I would put a 2 at the end of that." [to fix the error]
+    "Then I would click Add." 
+
+[Moderator performs actions. Error Popup: Confirm Navigation shows up]
+
+U3: "Leave this page I guess?" (user chooses the other option since last one didn't produce satisfactory results)
+
+[New screen for Fields Page now shows both items the user just added]
+
+U3: "Oh. So it did create the first one with the Rich Text. So there's some glitch. Interesting. OK. Alright - interesting. Are you able to type into the TinyMCE?"
+
+[Moderator types in 'hello' test text. The text stays.]
+
+M:Yes.
+
+U3: "So yeah I would leave that there. I don't know what that's going to do. Is that going to stay there. I thought that this was just defining the fields. I didn't think you'd actually put content in -- but. I would click on save defaults. Alright, So I guess its all saved."
+
+U3: "At this point I would try clicking on Behaviors? Just to see waht's there. Oh OK I see so that's where all the settings stuff. I would just leave it. I was curious what's in this panel. And then I would go back to fields. I don't really care about anything else. I would be curiosu now to add it."
+
+U3: "So at this point I would go back to home and then I would try to go to Add New and see if its there." 
+
+[Moderator navigates to home and the Add New content type in the live Plone site and selects the newly created content type.]
+
+U3: "Oh... so it defaults the hello in there." (seems surprised about consequences)
+
+U3: "OK. so I guess it worked. Why is it showing those red boxes. OK. That's kind of wierd."
+
+M: What you were expecting and weren't?
+
+U3:"Starting the process was fine. The Add New -- that made sense.This part is fine -- same things as before It's very breif but it makes sense. And then editing it -- I prefered the mockups with explicit instructions to say "click on this to edit" -- so that ... I wouldn't necessarily know right away to click on that it but since its highlighted ... its OK. This is fine. I mean it's pretty bare-bones. I would know to click on Fields. And I think this is where it starts getting confusing."
+
+M: Can you talk through this a little -- just unpack what. For example this is was the first thing that you saw and you were drawn to this line right here.
+
+U3: "Yeah. I think that's more than I need to know. I don't need to know where it comes from. All I would want to see is ... it already says title there.
+All that I would care about is what type of data it is maybe the 'text line (string)'.That -- that is important to me but I think it needs to be reworded because, like I said, I don't understand the difference between text, text line, rich text. That whole dropdown list was confusing without some sort of uh examples ... or ..."
+
+M: [confirming -- showing user the list within the Add field popup] Do you mean this one in the Add Field?
+
+U3: "Date. Date time -- those are very similar. Floating point, integer, fine. Image, these makes sense. Multiple choice was also uhh ...a little bit confusing ... the way ... when I added the field I guess it wasn't as nice as what I thought it was goign to be."
+
+M: What would you have wanted to see?
+
+U3: "In that case, you just typed in labels and had to hit Enter [referring to the choices in the settings]... maybe a nicer interface to step you through the creation of that one..."
+
+M: So I'm going to do another test ... If we're walking through [clicking the steps of the Add New Field sequence] and you were selecting multiple choice -- you would have liked to see another step?
+
+U3: "Yeah because if you scroll down now [scroll page to new field] -- I think ...that looks really confusing to me. I think you were not able to click on anything in there right? And you actually had to click on settings."
+
+M: [clarifying user's comment] Oh to do anything? I can click on it but I can't add anything to it. So it highlights...but...
+
+U3: "That's confusing to me, then. And it looks broken too - because its this skinny box. And then you had to click on Settings and then you have to type in there -- and then the possible values -- one per line -- I think that's a little clunky. Maybe it could have been like ... you know how we did our input boxes boxes with the plus sign and you could continue to click plus more and more times and it gives you a seperate input box per value -- I think that visually helps a little bit when creating this."
+
+M: [Asking about sequence flow] 
+Do you think this set of forms could have come not sequenced together? [showing popup] Would you have been fine when you clicked on Multiple Choice and it showed up in the next sequence in the popup.
+
+U3: "Yes. I think that's better actually. I kinda like seeing all the steps one after the other. Because here after I clicked Add, I go click on that input box, realize I couldn't click on it then I had to go to Settings to actually populate the choices. So its a little bit disjointed."
+
+M: When you see this result down here [the refreshed page with the Fields] is your expectation that your done? When you get to something popping up -- do you want to be complete with all of your task before that point?"
+
+U3: "I think I prefer that that's why I had brought up that thing about the popup ...I didn't think there was a lot of content there because I wanted to do it all in one shot. So here, I mean I know that I'm not done beacuse there's nothing in the multiple choice and its a required field and so I had to hunt through to know what to do next. It wasn't as clear. so there's that but I'm pretty sure ...
+
+[user thinks that Save Defaults is referring to saving her new field edits]
+
+U3: "Well actually, what happens if you hit Save Defaults. Does it give you an error because I didn't add populate anything?" 
+
+[moderator clicks on Save Defaults and Nothing happens](the system does not do what the user was expecting) 
+
+U3: "So I guess if I clicked on Save Defaults and nothing happened. I would think OK. I am done. I was able to save this -- there's no errors."
+
+U3: "At the top -- those two default fields look like they are draggable."
+
+M: Ah because of this? [pointing to the dashed lines around each of the boxes.]
+
+U3: "Yeah. That's why I was confused."
+
+M: So your expectation is that you were supposed to do something with these.
+
+U3: "Yes. Yeah."
+
+M: Seeing these two de-activeated boxes what did did that leave you with?"
+
+U3: "I thought I could go in and edit the title. I thought since I could faintly see the input boxes, maybe it was just deactivated until I went in to click on it."
+
+M: [asking about the tab labels] Any confusion with this on top? Is this straigh-forward for you?
+
+U3: "This was fine. its a clearer distinction. Its clearly marked as Fields and that is what I was looking for."
+
+M: And what about this term-- 'Behaviors'?
+
+U3: "Uhmm. Sorry let me see what the content. [click on tab] This one -- I think this made more sense in the mockups when you called it Settings because Behaviors I don't really know what to think. I guess if I had not clicked on it and just look that -- I wouldn't really know what to expect. But settings is very clear in my mind. Oh OK ... I can toggle all these different 'include navigation, metadata, ... that makes sense to me."
+
+M: What's your overall impression when you're met with this page? I remember you looked at it and instructed me to close it and go back to fields. 
+
+U3: "I think that this stuff I would look and say OK this is stuff that's already set by default and I don't really need to mess with it right now until I've figured out what I want to use my content type for. And then I might come back in here and exclude it from navigation or set an expiration/effective rage. So I looked in here and thought I don't need to do anything here at this point."
+
+
+--------------------------------------------------
+
+Big take-aways: 
+- Like U4, U3 was very sensitive to instruction text and wording and was unsure when unfammilar words or inconsistencies in wording appeared (IDublin Core line very problematic -- but in mockup when a set was described as using the IDublin Core standard -- she was fine with it -- basically it seems the context and when that item shows up is important)
+- Also U3 was very confused by 'old-style and new-style' categories.
+- Like U4, U3 liked context of what Dexterity is and concrete, specific examples on homepage
+- U3 preferred the existing table layout but had issues with the 'Add New Content Type' workflow; she reported that it felt incomplete -- she wanted to do more before the item added; thought having to go back and Edit felt disjointed and rather be done all-in-one-shot; also the impicit edit (by click on the link) was a bit subtle for her to notice w/o probing.
+- U3 preferred to have everything for her adding tasked together -- all in one page or chunked via the popup (wasn't sure which would be better) -- but it was important to her that she did all the tasks before the items showed up in the table.
+- U3 reported that her priority for features was: Fields, Preview, then Settings (Behaviors); this is interesting because she said she didn't really care about behaviors -- figured she would leave things at default. 
+- U3 reported that the batch clone feature wasn't useful to her and was confusing the way it auto updated copies to the table; she perferred to have control over the naming of the item from the get-go of creation and dislike the having to come back and edit the copies name
+- U3 (like U1/U2 from sprint session) got confused when she saw form-fields she couldn't edit; in addition she felt that the dashed lines for the 'deactivated' boxes looked like drag-and-drop affordances. 
+- U3 felt that an archive listing of all content types might be an important feature -- but she didn't want it as part of her start/add new content type task -- she felt like "# in site" and the full listing was irrelevant to her adding a new content type and would make more sense as a secondary action called "archive".
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

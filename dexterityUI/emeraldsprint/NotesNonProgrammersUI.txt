@@ -1,0 +1,152 @@
+﻿Dexterity Through-the-Web User Test Session
+Plone Emerald Sprint, Seattle 
+2/08/2013
+Moderators: Alice Tseng and David Glick
+Notetaker: Alice Tseng (questions: atseng.ux@gmail.com)
+
+
+Testing Scenario:
+User 1 (U1) has a neighborhood committee and he wants to have a group discussion board.
+He wants to use Dexterity to create this. He wants to allow people to pose a topic on his page and allow for people to write information (text and links) pro/con to the page and then, at the end of the page vote "yes" or "no" on the topic.
+
+
+U1 is a non-developer user with some background using Plone. It’s been a few years since he last used Plone regularly but he understands what the Dexterity product does (it allows him to create custom types with a through the web tool) -- and he has some memory of certain Plone vocabulary and concepts (that some content types are "folderish"). He also understands how to use the "Site Setup" Panel. 
+
+
+Testing Scope:
+Goal: we want to evaluate the current Dexterity TTW UI with some non-developer users and watch them use the tool and get their feedback about the process and the current TTW UI.
+We direct U1 to the Dexterity Panel and without any instruction we ask him to begin setting up his content type using the UI and to explain what he's seeing and thinking.  A second user (U2 is very familiar with Plone but not with Dexterity) is watching on and adding her feedback as she watches the process.
+
+
+Main Issues Found with UI during Testing:
+A. Confusing fields and Vocabulary: 
+Short-name, Dublin Core, some of the names and descriptions for the Behavior Options 
+B. Unclear Functionality: 
+Save Default Button, Container Option
+C. The Behaviors Tab: 
+General hierarchy/organization and naming of both the tab and behaviors titles/text 
+D. Overall flow for the major tasks: 
+Users had some trouble with the overall flow of the sequence of tasks.
+When they created a new type and encountered default fields and their un-editable states shown as “un-editable” before they select behaviors its unclear to the user that what they are seeing is a preview view of the content type. 
+
+
+Session Notes Transcribed: 
+[at the Front Page of the Panel]
+- U1: "The Dexterity Content Type" [the page title] this is confusing 
+- U1: "The button ... way over here ... [to the right side]" … (some agreement with U2 that the placement of the Add Content Type button is not ideal).
+
+
+[He clicks on the button to “Add a new Type”] 
+- U1: "The shortname ... I know that's a Plone thing but I'm not sure ..." 
+- U1: “Why is it there at all if you can’t edit it?” [referring to the greyed out fields that show up when the content type is added] “I expect to edit it if its showing.” (U2 agrees to this)
+- U1: “I understand what a field is …” 
+- U1: “I know what a Dublin Core is …” 
+
+
+[there’s agreement between U1 and U2 that the greyed out fields shown on this page is confusing] - there’s some discussion that “Dublin Core” is also a confusing term for them -- both have a working knowledge of what that term is but the appearance on this pages seems off to them; also it bothers them that they cannot edit the fields.
+
+
+- “The short-name doesn’t need to be editable” U1 wonders if this field needs to be here -- if it will open up problems if its editable by users -- he infers this is for programmers.
+At other points the short-name shows up in the UI (either as a field or as a secondary output for the title) - “I don’t need that, that’s for programmers” 
+U2: “As someone who has to export this to the file system, I want the shortname.” 
+
+
+[He scans the tabs across the page] 
+-”I’m not sure about categorization -- I’m not sure about this term...”
+- U2 - “Behaviors -- doesn’t make sense to me as a novice … what about ‘fieldsets’ ?“
+[Several other members of the sprint brought up some difficulty with understanding “behaviors” from the night before-- this comment supports this pattern]
+
+
+There’s a discussion that returns back to the issue of “Dublin Core” 
+- U1 “I as a user don’t care about Dublin Core … ” 
+- U2 suggests that perhaps the meaning can be better explained [referring to the current term] “What does this mean?” 
+
+
+Users discuss that perhaps this is something that all Plone content types have to have? 
+The discussion between U1 and U2, reveal that their expectation when they see “greyed out field” is that “this is something you have no choice in and that it’s something you have to have. I can’t change this.”
+
+
+“The fonts need to be larger” [referring to the field titles] 
+“I would get rid of Dublin Core” [another reference that this terms is problematic to the new user]
+
+
+User clicks on the Behaviors Tab. Sees the “Dublin Core” as an option.
+U2: She reads the description for the Dublin Core choice and now has an insight -- “I would have liked to see this before … behaviors … this makes this clear.” 
+
+
+At this point there is some discussion about what U1 and U2 think about the options in the behaviors tab. Both users read that the Dublin Core includes the title, description and meta tags and see that above the checkmarks repeat it -- they both think these are subsets of this item and should be indented to show this. 
+
+
+NOTE: U2 mentions --  seems worth explaining that Dublin core is a ubiquitous web standard for describing page content, used by search engines; describe when you would and wouldn't want it...
+
+
+At this point the users are asked -- “What do think will happen if you have duplicate items checked? Like ‘description’ and ‘Dublin Core’ ”?  [David wants to know if the users will encounter an issue with the duplicate check marks problem that he’s encountered before … ]
+
+
+Both users agree that they think nothing will happen because it will cross-cancel out. U1: “It won’t be a problem.” [they both think that the system will be smart enough to compensate for a user clicking on duplicate options when they check Dublin Core]
+
+
+U2 offers the suggestion that the grouping are done by function and not by A-Z. When they get closer to the bottom she realizes that its organized by alpha but this was confusing at first. 
+
+
+We ask U1 to go through the list of ‘behaviors’ check items and tell us what each item means to him. The most problematic ones are listed:
+“navigation root” U1 thinks this means that if checked, this content type will appear in the navigation. 
+
+
+“next and previous” U1 understands these terms as a concept but says “I don’t know why I want this … I would have assumed that if you enabled this on the container ...” The use value of this behavior is not transparent to the user.
+
+
+“categorization” U1 “it’s completely mysterious...” U2: the inclusion of ‘language setting’ is problematic -- the description text seems to confuse both users.
+
+
+‘Exclude from Navigation” U1 says this seems to be easily understood at first. Then hesitates and explains that he thinks that the item will be excluded from the navigation when checked; rather than allowing the option to be checked as excludable, the text leads him to believe that if he checks it, the system will auto exclude the item for him.
+
+
+“name from file’ - the user doesn’t understand this except that “this behavior only applies to a file?” 
+
+
+“referenceable” U1: “This is a little mysterious.... why you don’t want this...” 
+
+
+The user checks a bunch of behaviors and then clicks save. Both users pause [there is no feedback for a successful save]. At this point the user is unsure what to do. The user starts to click around and still doesn’t notice anything -- the changes are too subtle for the user [ they show up in the other tabs ] it takes a comment from us before the user notices -- this is a sign that the changes on save are too subtle for the new user to understand.
+
+
+The UI feedback mechanisms overall seem a little too subtle for the new user to pick up. Both users feel that though the current interface layout is nice and minimal, showing the preview of what the content type will be -- this point isn’t clear to them at first when they don’t have any full examples to look at.
+
+
+The greyed out elements for the default fields -- U2 states she would prefer an explicit text that says un-editable and that visually complements the “settings” link for editable fields. Both want things to be easier to see [for example, a big green button set above the fields for the Add New.]
+
+
+On the forms overlay, when the user clicks off the box the entire overlay closes. 
+The start-date settings overlay -- users are confused why there are 2 fields for the range. 
+
+
+We ask the user what they think the “save default” button means/does? 
+Both users agree that they think of it as a “reset button” and feel wary that if they click on it, they will wipe out all their recent changes. They are instructed to add their new content type from the site editing interface. Both users state that they would want a save button before they navigate away from the page. 
+
+
+When it is revealed to the users that the “save defaults” button would save data they entered into their fields to be the “default text” both users state they would not have understood this. The feedback from the conversation was to associate the button or UI control to the content within the field not on the page level -- as that would be more clear. Another solution would be clearer text. 
+
+
+Finally an issue regarding the concept of needing to select the container option was confusing for U1. When the user was asked why he chose to make the content type a container type -- his explanation opens a conversation that reveals that the choice is abstract /vague. 
+
+
+U1 had thought that in creating his content type as a folder, he could then create more instances of that type within it. U2 wonders why he wouldn’t just create the type and then save them in a folder, later. As they discuss back and forth, we can see that folders bring up some very abstract ideas regarding the site structure -- that may not be clear to users when they are first thinking about their type at creation. U1 asks if this can be changed later -- it cannot. 
+
+
+U1 also mentions that they would not consider ‘attachments’ as something that would need the folder behavior even though the technical constraints would make it so. U1 asks ”does this decision need to be made at this point [referring to the immediate creation of the content type]?  
+
+
+Plone’s notion of “folderish” content types seems abstract to understand -- conversation with the users brings this point up and the group discusses if there is any need for a user to have to make this choice at all? Could all content types automatically be folderish and not introduce this level of decision-making to the non-technical user?  
+
+
+Both users also note that the “folder icon” confuses them for the newly created content type [in this case it was a discussion group]. U1: “the manilla envelope (from the Windows system) makes me think of storing documents”. Users wonder if its possible to upload a custom icon. Group wonders if there can be an icon set that gives some defaults that the user can choose from that are more representative than the ‘folder icon”. Another idea suggested from a user was to color the folder something different than the “manilla envelope” 
+
+
+
+
+
+
+[a]
+[a]Alice UXAccount:
+Sally's comment: seems worth explaining that Dublin core is a ubiquitous web standard for describing page content, used by search engines; describe when you would and wouldn't want it...

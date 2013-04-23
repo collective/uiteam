@@ -1,0 +1,59 @@
+﻿Notes: Dexterity UI Sessions Brain-storming and UI Sketching
+Participants: David, Liz, Sally, Luke, Wayne, Steve, Alice
+
+
+The group discussed the results learned from the user testing session and brought up the key issues discovered; following that a whiteboarding session was used to clarify the problem of the editing flow in relation to the “behaviors tab”.
+
+
+Topic: Understanding the Issues with the “Behaviors” Tab
+From the user testing session on Saturday and the group discussions on Thursday, we noticed that the “Behaviors Tab” is an abstract concept for “non-developers” to understand. There are several issues at play: 
+
+
+1. The concept of behaviors is a “developer concept” which doesn’t have much meaning to non-developers who are not using the “dexterity libraries” as a “framework.” To users who only see the UI fields when they edit dexterity “through-the-web” it is especially the items that have no direct relationship to fields (such as: Name from title, Name from filename, Navigation root, Next/prev nav, Referenceable) that confuse non-developer users the most. The group came to agreement that while it is important to keep this accessible to developers from the framework perspective, caution should be used to decide if /what of these “abstract behaviors” needs to be exposed via the UI for the TTW editor. 
+
+
+2. For behaviors that are associated with fieldsets in a concrete manner (Title and Description, Categorization, Date Range, Ownership, Exclude from Navigation, Related Items, Allow Discussion, Next/Previous Toggle ), it is important to provide some visual feedback in the UI/experience so that users can see when behaviors are applied and the changes to the fields should be obvious. The group came to a consensus that it would be important to help the user “maintain context” when they add these behaviors -- one solution was to have some form of in-page “settings column/panel” that would be persistently visible -- and not hidden away in a “behaviors tab”. Steve showed the example of the Plone Form Gen editor to illustrate a model of how fields could be drag and dropped.
+
+
+3. For a few of the more “concrete behaviors” (listed in 2) there is an additional issue that when applied, the effects to the UI happen in a dislocated fashion (Exclude from Navigation, Allow Discussion, Next/Previous Nav Toggle, Related Items, Categorization). Some measure needs to be taken to ensure that the user is given a path to discovering these changes when they are applied in one context (behavior tab) and affect another context (settings and categorization tab). Two solutions offered were -- removing the behaviors tab and bringing these behaviors into the same page and then using javascript animation that shows these items being added to the page. Or, adding a feedback message with an explicit link to where the changes have been applied (example: you have added the option to exclude navigation from the settings tab)
+
+
+
+
+UI Sketching Exercise:
+Each participant was given blank paper and pens and asked to sketch out 10 solutions addressing the above problems. The goal of UI sketching is to generate a set of solutions and mine from the collective group for ideas. The goal of the sketching is not to produce final designs for a UI, but to gather concepts from the brainstorming session and to have the group present concrete solutions together to weigh and discuss as well as discover any patterns for next steps. Participants were given about 40 minutes to sketch by themselves and told that the group would re-group to discuss the sketches. Participants were encouraged to stay loose and to “try opposites” from their last idea when they get stuck. 
+
+
+The group came back after the session and each person would explain their thought process as they shared their solutions. This process brought out questions for problems or trigger the group to think through each solution presented. [Sketches are scanned and included]
+
+
+After each member finished sharing their ideas, the group was asked to reflect and write down the key patterns or insights that were generated from the group session.  
+
+
+Summary of Key Ideas and Insights:
+A. The need to maintain context for the editing flow for the user while also being aware that the page-length will most likely grow very long as a user adds more fields. A common solution that was displayed by many of the participants’ sketches included some kind of ‘panel’ for inserting the behaviors options: a right sticky panel, a top or bottom (persistent footer) sticky panel. In some designs the use of drag and drop would be employed by the user to position elements from the panel to the fields layout page -- the discussion that this would be necessary to help excessive scrolling and drag/drop position changing. Overall, there was a desire to ‘minimize clicks’ and move away from the “modal” pattern so that users could have an easier time establishing context during interaction transitions. Other solutions that did not involve JS, accomplished these goals by presenting the information in a tabular format. 
+
+
+B. The use of icons to help indicate a panel for (settings, behaviors, fieldsets, toolkit, etc.)  -- everyone agreed that “behavior” was a problematic term -- and organization of the tab was an issue. However, the group could not find another term to seemed satisfactory -- each alternative posed seemed allude to other things that would potentially confuse users). 3 of the participants used the ‘gear icon’ as an indicator in their sketches; others in the group agreed that this could indicate selectable behaviors. Another icon (the ‘i‘) was used to help reveal tooltips for clarifying what specific options would be. There seemed to be agreement amongst the group that these icons are well understood by users of software for indicating ‘settings’-gear and that the ‘i’ or ? as indicators of “additional information”. 
+
+
+C. Removing the dichotomy of “behavior” vs. “fields” as the organizing principle and rethinking how these elements can be re-grouped within the ‘panel’. [see example from sketch] The group reached consensus that this type of organization scheme -- by related functions (fields and behaviors) into chunks would be much easier for a user to understand. Members in the conversation also felt that it would be helpful to have developers think more carefully about the widgets they develop to organize elements rather than having a ‘collective junk drawer’ effect. 
+
+
+D. Accessibility and Touch Interaction concerns and the need for progressive enhancement. Since many of the sketches involved JS animations and live update ajax-ish behaviors to communicate interactions, a discussion was brought up that hovers would pose an issue with touch devices and that defaults that do not rely on JS should be built in for accessibility concerns. While participants agreed that this type of interaction and editing seemed unlikely to be done via mobile, the tablet and other touch-enabled pc were not a stretch to imagine. A related issue (to ajax) was a need to maintain URL State/browse history when relying on ajax solutions.
+
+
+E. The use of an “explicit preview” tab to give users a mental-model shift was presented by several of the sketches. From the earlier brainstorming session -- a concept discussed by the group was that the imbedded in-context “updating view“ of the content type via the field editing panel was not transparent enough to allow users to understand what they were creating. One solution takes the approach of having an explicit “preview” tab that helps the user shift their expectations to understand they are viewing and end output. Another approach focused on making the layouts and visual rendering of the fields more accurate to the end-result rendering and placing editing controls in-context by way of hover for discovery (a la google docs and flickr).
+
+
+F. The ability for users to edit the fields. A problem that came up in usertesting and from other feedback from users is the auto-inclusion of “Dublin Core” behavior fields that are not editable, but rather greyed out at creation of all content types. Minimally, the users should be allowed to edit the labels and descriptions for their fields. There are some tricky issues that relate to when fields that are associated with behaviors are severed and the problems that can result from this, however, the need for users to have the ability to edit fields seemed to call for a need for some creative solutions that allows users this ability, rather than to only present them with un-editable fields. One solution was to remove the display of “Dublin Core” as an option from the TTW interface. In reality, Dublin Core would be a default setting applied from the system but its appearance would be “title”, “description”, etc. fields that are checked and the user can uncheck the fields -- a warning would inform them when any field that is un-checked would pose problems by giving a warning feedback. 
+
+
+G. The need for some type of “pre-configuring” or “templating” to give users some reasonably easy and quick options for selecting content types as a building-off point. The notion that the Add New Content Type could be a drop-down select filled will some options, rather than a modal overlay.
+
+
+Next Steps:
+The group would choose 2 design directions (incorporating solutions from points A-G) to be converted to simple paper prototypes and Alice committed time after the sprint to run some additional user tests with these paper prototypes and report findings back from these tests.
+
+
+After the group session, David and Alice discussed having the group author a write-up with a summary of sprint UI activities and insights learned that David could share with the Plone UI group.

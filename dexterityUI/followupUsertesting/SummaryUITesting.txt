@@ -1,0 +1,168 @@
+4 Participants, 4 Sessions Total:
+Both U3/U4 were intermediate-level Plone users (both front-end developer/designer-themer types), 2+ years experience with Plone, however 'new to Dexterity' -- heard of Dexterity and had a general idea what it was but never used it. 3 sessions total with iterative mockups (changes made with each set building of insights learned from previous sessions). U3 (2 sessions), U4 (1 session)
+With the initial walkthrough session with U1/U2 from the Sprint, this totals 4 "New-to-Dextery" users and 4 sessions. 
+
+Methods:
+All sessions were about 1 hour and I did a combination of 2 activities: 
+A. Showed static mockups incorporating facets of various ideas brainstormed by the sprinters. To keep the sessions under an hour I chose a mixed strategy -- I picked out key pieces from our brainstorming session to test hypothesis, rather than testing a single whole UI sketch (contributed from a sprint participant). Since all my participants were remote, I also focused on the features that I could successfully translate to a remote session with static mockups and the other focus was on solutions that could be implemented easily into the existing Plone UI. 
+
+B. I also conducted a user walk-through with each participant of the existing UI (session 3 and 4) to see of any more problems would be revealed and if any patterns would arise that confirmed our first session with Ui/U2 during the sprint.
+
+Major questions and goals:
+Get further testing on Sprint generated solutions and hunches:
+From our sprint activities we formed the following hypothesis about the the UI problems:
+- some layout issues (particularly with key buttons and spacing of elements in the behavior lists)
+- thoughts that the primary action buttons needed to be made more distinct: by color, size placement, etc.
+- some issues with wording and choice of labels 
+- issues with balancing how to present advanced features -- considered irrelevant for a 'new to Dexterity' user (short name, I Dublin Core, export buttons, # of site) but useful for more technical users
+- some bugs and features that were ambiguous/conceptually confusing to users (missing feedback, the 'save default' feature, the 'container' feature, and behaviors
+- some issues with the flow - we mostly focused on the disjointed nature of the relationship between behaviors and fields
+
+From Sprint Collective Brainstorming: 
+- fields = content and behaviors/settings = not content (luke/steve) 
+- behaviors are not just field-sets and are set only once while you can have duplicate field-sets (steve)
+- explicit preview needed (sally, wayne, liz, steve)
+- explicit activate needed (everyone) and link to location would be helpful (sally)
+- relationship between fields and IDublinCore line is confusing (everyone) but important for some users (sally/steve) and has technical consequence (david/ross)
+- if it looks actionable users want to edit it (liz, wayne, sally) so we should allow it or don't show it
+- save default feature is confusing - it looks like it affects the whole page (everyone)
+- modal paradigm is limiting and there may be other more effective approaches leveraging JS (liz,david,luke,steve) but the established Plone tabs and table-based layout + modes for actions are a dependable UI pattern for users (steve, sally)
+- users might benefit from seeing the full set of content types listed (everyone) and having some sort of  'smart defaults they can edit' instead of only building from scratch (ross, steve, alice)
+- the choices for some fields and behaviors are conceptually abstract (wayne, sally)
+
+Tested ideas were:
+1. Was the help/instruction test a significant issue? And it what ways? To test this out I put in the original text against some simple variations: no text at all and various wording changes
+2. Would certain labels perform better than others? Clone vs. Duplicate, Settings vs. Behaviors, Edit Content Fields vs. Fields etc.
+3. Would sub-categories for the behaviors help users with interacting with that panel?
+4. How would showing mixed (old-style, new-style and Plone default content types) fare with these users?
+5. What exactly were the issues with the task-flows? I tested some variations of the Add and Edit tasks against the original.
+6. How would users respond to seeing blank elements as defaults (one idea that seemed promising was to keep consistency of UI expectations by always showing the table layout - even before content was populated to 'prime' users of the updates).
+7. What is the "New-to-Dexterity" user trying most to do with this UI? What does it mean (concrete tasks) to create a custom content type.
+
+Patterns that held up:
+1. If it looks actionable, users want to edit it - so let them or don't show it. 
+
+Related to this is to only show features when it relate to their current task (or Modes work when synced with current task flow).
+
+This pattern was consistent throughout the sessions. U3/U4 both were very confused by the current in-place implicit preview of the Add Field section that showed default fields -- U3 said the dashed lines made it look like drag-drop ability - both wanted to edit the form boxes as soon as they saw one. These problems are associated with the fact that the existing UI was using an in-context - see-it-update as you build your fields over an explicit Preview Mode -- the sprint brainstorming highlighted the need for explicit preview and U3/U4 confirmed that pattern (see 3). 
+
+This pattern also came up when users were shown empty tables as a possible default start page or when users were given a list of the complete set of Plone content types ('old-style vs. new style') but couldn't edit or perform actions on the 'old-style' items; U3 reported this was a useful feature (a listing of all existing content types) but out-of-context to the current 'Add' task; she preferred this be shown when she was expecting it not when she was trying to Add a New Content Type -- U3 wanted these features as a separate 'archive' tab (like the way Plone has the Edit vs. Content modes in the content-editing UI). 
+
+So, this feedback seems to give us a way forward to preserving some of the advanced features such as batch cloning, # in site, export features, full content types listing (new-style/old-style), etc. that 'new-to-Dexterity' users might find irrelevant and confusing when trying to start -- keep them as features but show them in the right context -- not during the Add New Content Type or Editing sequences. A model to follow would be the way Plone currently handels these distinctions in the 'content editing' UI. By allowing a user to do 'batch operations' and file-level operations in the 'Contents Tab' -- not while you're Editing. 
+
+2. Fields= 'content' and Behaviors/Settings = 'not content' held up but not really the big problem for "New-to-Dexterity" users
+
+For 'new-to-Dexterity' users, understanding why/how to select specific fields and behavior options (and how it affected the content type) was really the major problem.
+
+U4 seemed to have no issues distinguishing between fields and behaviors (her self-description as related to her work was spot on, even though she had only a vague idea of what behaviors were). U3 associated Fields as the 'main focus of her priorities for editing', Preview as second most important, while behaviors/settings were an after-thought -- she just wanted to leave the standard defaults in place until later. For U3 the fields were most important, seeing how they looked were important, behaviors less so. U3 preferred 'Settings' as a term over 'Behaviors' -- but overall, in general the 'not content' elements were of lesser importance to her than the 'content'.
+
+While developers experienced with Dexterity gave this distinction a lot of though at the Sprint, to the "New-to-Dexterity" users -- Behaviors came after Fields and Preview in priority.
+
+The main barrier that mattered to both U3/U4 -- was their trouble with understanding how to select and use specific Fields and Behaviors. The main issue isn't what's the difference between 'fields' and 'behaviors' -- rather it's why would I use specific 'fields' and 'behaviors' and what are the consequences to my custom content type? 
+
+Some initial tests with set defaults seemed to prove helpful for 'new-to-Dexterity' users. In earlier sessions, both U3/U4 had a hard time with the "build-from-scratch" way and expressed wanting helpers -- examples and things they can clone and edit to start. This was most critical was when U3/U4 encountered terms/concepts they didn't understand. Under behaviors, the meta-data options, the site root and the relative options seemed to be the most abstract, while users generally felt fine with the others. Fields as a category were concrete but when posed with the difference between 'text', 'text-line', and 'rich-text' -- U3 had a hard time knowing what was the difference. 
+
+In session 4, the mockups incorporated some of these 'helper' techniques in key places where U3/U4 had trouble, previously. A simple line added to the start page "Examples of default Plone content types are news items, event, page. etc." helped U3/U4 establish confidence not knowing anything at all about Dexterity. 
+
+The idea of off-loading some of the 'thinking' to 'smart defaults' for behaviors and even common fields -- 
+seems promising from the session 4 with U3. A choice between 3 meta-data options: 'basic / complete (default and based on Dublin Core standard) / custom' was shown. U3 expressed confidence with picking the identified "default" even though she didn't yet know what it meant. Here, Dublin Core (a jargony term that caused users major problems in another context) didn't undermine her confidence since it was explained as a 'default standard'. 
+
+Another tactic explored was grouping a small set of common behavior settings that might be common to all 'default Plone content types' and setting these as checked on by default -- letting users know that these are common to all Plone default types. Again U3 expressed confidence that even though she didn't know anything about these settings -- she felt OK selecting them since they were the common defaults.
+
+Overall, these small helpers seemed to help U3 complete her task even though she didn't yet understand behaviors. Contrast this to the field drop-down (shown to U3 without some pre-set defaults/examples). U3 had a harder time with the selection process when she encountered the unfamiliar or abstract - want sure how to proceed with confidence when selecting text, text-line, rich-text. 
+
+In other words, for 'new-to-Dexterity' users -- rather than trying to help them understand what behaviors are (a pretty abstract concept for a first-time user to understand and arguably may not be possible to 'get' until you spend some time using Dexterity) -- how can we help them start building custom content types -- even though they don't know anything about behaviors? 
+
+Where else could the same 'helper techniques' help new users delay needing to make decisions until they were ready to learn about them? 
+
+3. Edit mode vs. Preview mode held up. 
+
+U3 and U4 both had strong notions in place to distinguish 'what I'm editing now' vs. 'what my end users will see'. U3 was very disturbed/confused by the save default feature using the TinyMCE input to add the default (rather than a form box) because she stated she was in editing not in preview. Also as noted in 1, U3/U4 -- like U1/U2 had issues with the implicit preview for Editing Fields.
+
+4. With layout, with 'new-to-Dexterity' users -- existing Plone UI conventions were fine - and in some cases, gave confidence.
+
+U3/U4 preferred the existing table layout and tab-based panels when tested against other options. U4 stated that she 'was used to the familiar Plone interface' and that even when faced with unfamiliar items having that consistency made her feel more confident. U3 disliked drop-down lists when faced with options since she wanted to see everything at once. U3 asked why a simple full-page interface wasn't used for the Add New sequence (over the popups).
+
+Major Problems/Recommendations:
+
+1. The current Add New Task Flow ends too early.
+U3/U4 both expressed the feeling that "they didn't feel like it was complete" when using the existing Add New Content Type sequence displays the newly added item. U4 wanted to "do more" before the content type showed up and felt that she preferred finishing "all-in-one-shot" -- over the existing flow -- where a user Adds by entering a name+description, then clicking on to Edit the fields and behaviors process. U3 felt this existing flow was "disjointed". U3 suggested that either it be a more complete sequenced (next/next/next/save) type of interaction -- if still using the popup convention -or- having everything in one page. 
+
+U4 seemed to perform fine with the existing implicit Edit flow -- she seemed to know that she needed to click on the link to edit - but also felt the flow left her feeling like she was "not finished." She wanted to know how she knew if something was activated in her site and also how things would look to her "end-users" - and considered that a part of the sequence.
+
+U3/U4 being new to Dexterity needed some form of sequential scaffolding for the Adding sequences. The same problems came up for U3 during a trial-run of her Adding Fields- she was confused by the 2-step flow when she added a field item, then needed to click on settings to edit more to complete her Add task. For U3, she wanted to 'be done with everything' before seeing the added content type. 
+
+2. Help 'New-to-Dexterity' with users get past "selection" when they lack context by using 'helper strategies'
+
+Bringing the full task sequence into Add before the item shows up (as 1 seems to imply) leaves an issue with how to manage the complexity of the task 'creating a new content type' can be. "New-to-Dexterity" users have a problem with selecting between the numerous options available for Fields and Behaviors -- which would easily overwhelm users if all were added to the Add sequence. 
+
+Perhaps, one way forward would be using a limited set of smart defaults for the Add Sequence -- and only showing the full set for the Editing sub-tabs. Some simple helper instruction text was successful for U3 - the following explicit line: "continue editing by clicking the link" helped U3 understand there was more to do. 
+
+Whichever strategies are picked -- its clear these users benefit from some form of 'helper strategy'.
+
+3. Keep Add New focused and simple. 
+
+Advanced features need to be placed in the right context and (ideally) not part of the basic Add New Sequences. If possible, make Add only about the specific tasks/choices needed for "adding" the most basic type of content type a new user would deem complete.
+
+A clear barrier to "new-to-Dexterity" users was the presence of 'advanced features' that under-minded their confiance -or- hindered their goal of adding custom fields during the Add sequence.
+
+'New-to-Dexterity' users have humble initial goals: to create a new type and edit the fields -- despite not knowing anything about Dexterity, yet. Advanced features/concepts such as: IDublinCore, lists of options for fields and behaviors, export functions, batch copying, default text settings, new-types vs. old-types -- are all out of their immediate task context and serve as barriers to this goal.
+
+Essentially, to make a 'new-toDexterity' successful, they need to name, add/remove the custom fields they want + have all the default behaviors that all other Plone content types have as a standard. Keeping these goals the focus and other features out of the initial 'Add New' sequence will greatly reduce the complexity of what they need to deal with. If they cannot be moved to other places, then it helps to provide 'smart defaults' and wording that explicitly explain to these users 'these are the defaults that are common to every Plone content type'. 
+
+The basic task lists for "Add" as these users described it are: 
+1. Basic Stuff (name/description)
+2. Add/Remove Fields
+3. Preview how this will look to end-users
+4. Activate and road test it in the content side of the site. 
+
+Customizing behaviors/settings are typically not on their immediate radar and there's promising evidence that if given a 'good basic default' set to start with -- they wouldn't need to mess with it until they know more. 
+
+4. Helpful text provides explicit relevant context + immediate relevant instructions + concrete examples in accessible language. 
+
+Over several iterations - in various situations -- U3 and U4 both expressed the need for context and examples to fully feel like they understood. This combination proved the most helpful in establishing confidence for "New-to-Dexterity" users to move forward -- this was most helpful at the start of each sequence and when they encountered choices. 
+
+For example, based on iterating with user feedback, the start page text evolved to this combination: 
+
+"Dexterity allows you to create custom content types for your site. News, Events and Page are examples of default Plone content types." 
+
+In addition, a separate instruction text (spaced away from the intro text and placed just above the action button): 
+
+"Click the Add Content Type button to beging creating a new custom content type." 
+
+When shown with other variations, this combination received the most positive feedback.
+
+5. Consider new layout techniques with the overall Plone UI conventions in order not to confuse or undermine 'new-to-Dexterity' user confidence. 
+
+The sprint brainstorm originally highlighted some of the challenges inherent with the Modal pattern and participants sketched interesting layout alternatives. Certainly these possibilities should be explored and if better layout patterns are found, adopted. But, its important to highlight that any major changes to UI layout conventions should be introduced in-concert with the Plone UI group -- so that major inconsistencies don't undermind overall user experience of the system as a whole.
+
+One surprising result from these tests were that layout wasn't a major issue and more importantly, U4 expressed the importance of familiarity with helping her establish confidence and U3 expressed the existing table-layout as preferred over the drop down list for visibility issues. Also, more interactive "pop-up style" overlays were not favored just by default - U3 wondered why not use a whole-page old-school style interface for the Add New as this gave her the advantage for doing everything all-in-one-shot. She noted that the pop-up with a more complete sequence may work as well -- but she wanted things kept together and finished in one sequence.
+
+** End Summary
+-----------------------------------------------------
+
+Some Options for Next Immediate Steps 
+-- (let me know what's most useful for you guys):
+
+1. Re-design a more focused "Add New" sequence that is weighted to the "New-to-Dexterity" user.
+For helping "New-To-Dexterity" users get going easily and quickly: clean up the Add New sequences and focus the tasks to a limited goal -- getting new folks who don't know anything about Dexterity and what 'behaviors' are to have successful custom content types where they can select and edit their fields + preview + activate. For these folks -- learning and using custom behaviors are for later.
+
+Provide some helpers so uninitiated folks can better select their fields (better language/examples) -- and if possible, help them avoid selecting by providing ways to use good defaults.
+
+2. Re-writing text so that it provides context, examples and instructions at critical decision making points.
+
+3. Fixing any critical bugs in JS and missing feedback.
+This would be very helpful and easy to accomplish. Some were found during the tests but should confirm if these are still problems or not.
+
+4. Relocate advanced features to other tabs.
+Provide full functionality for experts in Editing sub tabs and maybe a "Contents"-like tab -- use existing Plone as a possible model. This should get validated with experienced users as non of the tested were experienced Dexterity folk. Suggestion would be to run at least 2 tests with "Through-the-Web-Plone-Developers" who currently use Dexterity -- I think Dylan Jay's users would fit this category.
+
+5. On the bigger picture/scope -- establish who Dexterity TTW-UI users are.
+It would help focus design even more if Dexterity got clear who its primary users are for the TTW UI and which are the priority. Is it "new-to-Dexterity" users? Is it "TTW-Developers"? Is it "Arch-gen folks" -- a clearer understanding of this would help the UI decisions be made more effectively.
+
+I've committed to and started working through a survey -- if this is helpful -- but since this too is also a bit labor intensive -- let me know what directions you want to take as far as next steps -- if you feel the survey won't be helpful to your goals -- no worries, just let me know and I'll drop it.
+
+6. Testing alternate JS based layouts 
+This is still viable but I'd say the best way to do that would be with interactive prototypes -- early rounds, I found that the combo of remote + static mockups makes it very confusing for users to give feedback for interactive features and was completely unsuccessful -- so I dropped that notion completely. 
+
+If there's strong desire to test specific JS based alternatives -- I'm happy to run more tests if folks are will to provide a prototype for me to work with.

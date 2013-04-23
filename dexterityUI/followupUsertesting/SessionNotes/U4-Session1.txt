@@ -1,0 +1,365 @@
+User 4 
+Session 1 w U4, Session 3 in Series
+Iteration 2 Testing Mockups [simple layout, text variations incorporating easy-to-accomplish suggestions from Sprint]
+
+U4 Demographics/Background:
+Job: Webmaster
+Weekly Internet Usage: 40+ hours 
+Regular Web Authoring: Yes
+Plone Experience: 2 years and Familiar with Site Setup, Never used Dexterity Before
+Work Role in Plone: Characterizes self as Front-end Developer and Themer
+Sites Frequented: Smashing Magazine, LA times, Github, D-zone, Techcrunch, free apps online (all realted to work)
+
+**Faciliation Note: Ask more targeted demographic/background questionsregarding the user's habits; in this case, general websites used is not really relevant to the context of using Dexterity
+More Targeted Questions:
+Should be asking about common expectations and general satisfaction with Plone's UI, Maybe even ask to what degree the task of "building content types" is important to their work
+Setup portion takes too long 10 minutes -- before we get to the actual tasks**
+
+Section 1 of Session 3: Intro/Process:
+Intro, Thanks, Information Use: disclosure & permission, session overview to set user's expectation of process today: 
+
+Two Major Activities: 
+1. Showing Static mockups with variations (incorporating ideas from Sprint sessions as well as feedback from Sessions 1-2). The goal of Iteration 2 Mockups is to try to identify factors that make the greatest impact out of suggestions offered from the Sprint: layout, wording, button placement, default empty tables.
+
+User will use talk-out-loud process to describe what they see and articulate what they would do. User is asked to give feedback on what works/doesn't work for them and provide comparison feedback between variations. Moderator will also ask follow-up probing questions to uncover user's thoughts.
+
+2. Live Site Walk-through with current UI
+User will use talk-out-loud process to describe what they see and articulate what they would do. Moderator will "play computer" for user and click and act out user instructions. User is asked to give feedback on what works/doesn't work for them. Moderator will ask follow-up probing questions.
+
+Section 2: Warm-Up: Preliminary Questions on Background and understanding of Dextrity.
+
+[Moderator asks U4 to describe in own words what they think Dexterity is]
+
+U4: "It allows you to build your widgets in Plone -- content types -- for example newsfeeds..."
+
+[Moderator asks U4 to describe in own words to describe what Content Types are]
+
+U4: "Different functionality -- collections, events, calendar would be a content type"
+
+Section 3: Variations of Mockups to Identify factors that make the most impact. 
+
+Moderator shows first screen and asks U4 to describe what they see and what they would do. 
+
+U4: "I would click on the button." 
+
+M: [Probing further] What are your first thoughts when you look at this page?
+
+U4: "I would like a little paragraph that tells me what its about."
+
+**Faciliation Note: should have asked U4 to elaborate on the paragraph)
+
+[Moderator shows the user variation 2 with helptext. Uses a scale to help draw comparisons from U4. More helpful, Less helpful, No difference at all]
+
+U4: "Somewhat more helpful; I would like an explaination of what a content type is and some examples -- a content type is a news item, a calendar, etc. So I can put it in context."
+
+[Moderator shows variations 3 and 4, testing if help text is simply about using more user-friendly language. Asks U4 to rate A. More Helpful, B. Less Helpful, C. No difference at all]
+
+U4: "No difference at all."
+
+[Shows variation 4. Re-phrasing of the help text.]
+U4: "No difference at all."
+
+**Faciliation Note: should have asked U4 to elaborate on why and get them to describe more details about the text they want
+
+[Shows varition 5, Testing sprint suggestion to change button color]
+U4: "No difference at all."
+
+M: In your own words, what would be more helpful?
+
+U4: "I would like a defination of what a Dexterity Content Type is... and some examples ... so for example a calendar, a blah, blah, blah ...so I could put it in context"
+
+**Faciliation Note: granularity of the variations in mockups are too small, thereby making questions come up as redundant. Also scale/value helps to warm up U4 but using close-ended questions don't provide an opportunity to have U4 elaborate their thought-process in meaningful ways.**
+
+*** Design Insight: Help text should be offered on the start page -- even with a very simple action with no help-text the user is uncomfortable with just the button. U3 wants something that provides meaningful information about the context and concrete examples -- not simply easy-to-understand wording. Simply "instructions" for what to do is not enough for U4.***
+
+[Shows variation 6 to test the Empty Table idea from Sprint]
+M: Can you tell me your gut reaction when you see this? What you think your seeing.
+
+U4: "It scares me -- I don't know what to do." 
+
+M: Can you explain a little bit about that? 
+
+U4: "I just -- it doesn't mean anything to me and I don't know how to interact with it. Well ... maybe it had some like hint text. What a type name would be, what a description would be, what my options under select would be ..."
+
+M: [checking in] I get the sense that you feel overwhelmed. Is this correct?
+
+U4: "Yeah -- there's not enough hints on the page -- what I'm supposed to do with that grey box?" 
+
+M: What does the grey box look like to you?
+
+U4: "It looks like a table but it doesn't look like I can interact with it."
+
+[Moderator shows Empty Table option with button and previous help text options.]
+U4: "No difference." [for both options]
+
+[Moderator shows option with help text that explains what Dexterity is:
+'Dexterity allows you to create new custom content types for your site. You have no custom content types. Click the button to start.']
+
+U4: "That's a little bit better."
+
+M: OK and how so?
+
+U4: "That's a little bit better; it's giving some real information -- it's telling me I have no custom content types -- its still not telling me what a custom content type is.. but it's telling me I don't have any -- it kinda explains why the table is empty."
+
+M: So, without the text was it problematic for you that the table was empty? 
+
+U4: "Yes."
+
+M: Why would you say that was problematic?
+
+U4: "Because I didn't realize the table was my custom content types. I didn't know what that table represented." 
+
+M: And so you saw it but you didn't know what to make of it? Is that what I'm hearing?
+
+U4: "Yeah. I didn't understand it's meaning."
+
+M: Now in your own words. Now that you've seen this text. What would you say would be more helpful to you?
+
+U4: "If I was by myself ... I would click on the button to see about getting more information." 
+
+[Moderator shows a filled out table [the screen that is in the current UI right after content type creation]
+M: Can you tell me what you see and what your first response is?
+
+U4: "It makes sense to me yes. I don't know about the export type profiles and export schema -- those buttons don't mean anything to me but the delete and clone do."
+
+M: Does everything in the table make sense to you?
+
+U4: "It appear that I can click on my type name and go back and edit it. That seems to look like a link or something. If I wanted to go back and make changes, I would do so by clicking on that link."
+
+*** Design Insight -- for U4 this sequence makes sense for "going back and editing" items. Question: Will it be obvious to U4 that there's more to do to finish the create content type task? ***
+
+M: What about anything else? Does everything else make sense to you in the table?
+
+U4: "In the Table yeah. Except # of items -- I don't know what that means; but it must have been something I did." [U4 assumes that # of items is related to the act of creating a content type -- the task she did before.]
+
+M: If you had to speculate and ... number of items ... what would you guess that to mean? 
+
+U4: "I have no idea." 
+
+M: When you look at this page, what do you think is the next step?
+
+U4: "I have no idea."
+
+M: What would you do?
+
+U4: "I would probably click on the link and make some more changes. I don't know what's on that other screen. Maybe there's more information on that other screen. Just looking at this screen, I really don't know."
+
+M: By looking at this screen would you felt that you were finished?
+Let me walk you back through [moderator re-traces the sequence].
+Would you feel like you finished or there would be more to do?
+
+U4: "I would not feel finished, no."
+
+M: Can you talk about that?
+
+U4: "My next big question is how do I activate this in Plone? I mean I created it but how do I activate it in Plone so that my end users can see it."
+
+M: When you say that is it your assumption that its not activated, at this stage?
+
+U4: "I don't have enough information. It may be but I wouldn't know where to go to look for it either."
+
+M: What would you expect to see to confirm that? 
+
+U4: "A widget or something on the front page of whatever page I put it on."
+
+M: Would you expect that to be shown to you or navigate to the front page? 
+
+U4: "It would be really great if there was a link that said -- click here to view your widget or preview your widget or whatever -- or to see your widget in context or go to the page where your widget is on ... or something like that"
+
+M: What would you call that feature?
+
+U4: "What would I call it? A link to the widget -- that ... a link ... what are these called -- Content Types, I guess? -- a link to 'test' [the name shown in the current mockup screen representing the new content type] ... a link to content type called 'test'  ... go to content type called 'test' ... preview content type called 'test' -- or something like that."
+
+M: You would like there to be a preview feature for the content type that you just created? Is that correct?
+
+**Faciliation Note: This is actually a leading question. U4 describes wanting a link not a Preview feature. Moderator heard preview as one of vocaulary words she mentioned and filled in the rest -- so we can't be sure that this is what U4 meant.
+
+U4: "Yeah. One of the things in Plone is that there's always 2 aspects. There are always 2 aspects: there's the 'back-end' that looks a certain way for the developer, but then, I always like to see what my end-users sees as part of the process of making something. So I like to switch back and forth between those two views as easily as possible."
+
+M: And you're calling this a preview -- is that correct?
+
+U4: "... [hesitation] ... uhh ... I guess a preview -- whatever the end user sees. [U4 seems to indicate its understandable but may not be her first choice of wording? -- leading question]
+
+[moderator shows the green button in the context of a more cluttered layout to see if this actually makes a significant difference - coloring.]
+
+U4: "I can see the button better, I guess. It stands out more. That's about it."
+
+[moderator shows the current layout of existing UI.]
+
+M: What's your first instinct as what you see?
+
+U4: "It looks pretty straightforward. I think I understand everything that's going on."
+
+M: Can you describe what you see?
+
+U4: "Just the overview tab with the name of my content type and descriptions."
+"Two more tabs field and behaviors."
+
+M: What do you think of when you see the two tabs?
+
+U4: "I think that's the functionality. I think that's where I do the work."
+
+M: What do you think the difference between fields and behaviors?
+
+U4: "Well fields would be what the end-user would interact with and behaviors we be something that I would prescribe ... to whatever ... the fields, I guess. Something like that. I'm not sure." 
+
+[Moderator shows variation (with sub categorizations and behaviors tab set as default]
+
+M: Can you contrast this with what you just saw.
+
+U4: [Long pause] "I'm a little bit lost."
+
+M: Can you describe that a little bit?
+
+U4: "The metadata seems OK. But I'm a little.. I'm a little disturbed by the 'features' and the 'advanced' because there nothing to do there -- its just type. There are no buttons. There's nothing -- just whitespace. I'd be a little lost at this point."
+
+**Faciliation Note: false testing positive ** --> For Session 3 this mockup page was not designed to full detail. The test was to simply test the upper tab labels and to see if sub-categories [Metadata/Features/Advanced] would be understandable. U4 descrives that metadata is understandable but having an incomplete mockup backfired and U4 became confused and fixated on the missing information. We cannot tell if 'Features' and 'Advanced' failed on their own or due to the confusion caused by the missing information in the mockup. **
+
+U4: "I'd be a little bit lost at this point."
+
+M: OK. Can you describe why you'd be lost?
+
+U4: "Because I don't understand what 'features' or 'advanced' mean in the context of what I am doing." 
+
+M: It is the vocabulary that's creating that feeling of apprehension -- if that is what I am percieving?
+
+U4: "It's the vocabulary and there are no onscreen instructions either. If I had done this for a -- used this interface for a long time I wouldn't care about the instructions. But first-time I a little lost." 
+
+M: In your own words what type of instructions would you want to see?
+
+U4: "I'd like to kow what 'features' and what's an 'advanced' is.
+
+M: So is it what I'm hearing -- you'd like some explaination of why things are categorized the way they are? 
+
+U4: "Yeah." 
+
+M: The two tabs -- if you can contrast that with the 2 choices. If they make a difference. If one is clearer.
+
+U4: "I think this one I am looking at now seems clearer [original design] -- I understand the vocabulary better "fields" and "behaviors" -- I don't know waht "features" and "advanced" mean. It could be a wording thing not a layout thing." 
+
+[U4 is still focused on the missing sub-categories -- has ignored instructions for comparing the upper Tab Labels -- this section of the test should be considered compromised from the mocukup back-fire]
+
+[Moderator attempts to prompt the user to look focus on the tab wording]
+M: What about the two sets up here ... the "edit settings" or "edit fields" ... 
+does this make any sense to you? Or is that confusing?
+
+U4: "Well the edit fields I would understand. Again ... I guess the settings ... I'm not sure ... I don't have enough information to know how those choices effect the widget. I'm not sure what I'm doing in this page."
+
+*** Open Question: Is this a problem of vocabulary or not having finished a 'full Add' sequence and thus having no idea how these tabs relate to each other? 
+Moderator should have asked U4 a follow-up question to elaborate on this. We'll need to test more to understand this. ***
+
+M: And this page? [Probing user since she mentioned she didn't know what behavior was but somehow, she seems less uncomfortable with this design]
+
+U4: "I'm used to Plone so I'm used to that interface."
+
+M: Is it that this feels more familiar to you? [existing design]
+
+U4: "Probably. Yeah."
+
+M: Can you talk a little bit more about that? What is familiar about this screen that you see in relation to your experience with Plone?
+
+U4: "Well it looks like all the other editing interfaces in Plone; there's consistency I guess ... so I know where to look for things, what things mean, how to find things."
+
+*** Design Insight: Even though U4 has no prior experience with using 'behaviors' / 'settings' the familiar UI for the Plone Tab Metaphor seems to give her more confidence.***
+
+Section 4: Current Interface Walkthrough.
+
+[Moderator shows U4 the Fields screen].
+M: Tell me when you look at this. Can you tell me what your gut reaction is?
+
+U4: [Long pause] "Uhhhm... [laughter] ... I need training."
+
+M: OK. It sounds like you're a little bit scared or a little bit intimidated by this -- am I hearing that correctly?
+
+U4: "At this point I would probably Google something to find out how to use the interface."
+
+M: OK. Can we walk through and unpack a little bit about ... what you're having trouble with? Is it specific wording? Or is it the layout? 
+
+U4: "No ... its not the wording or the layout ... its just that I have no idea what an I Dublin Core Behavior is ... I'm sure I'll know it once I start using the interface but right now I don't know what it is."
+
+[Moderator highlights the line U4 mentions]
+M: So ... Is it this line that's kinda throwing you off? 
+
+U4: "That's a little scarey."
+
+**Faciliation Note: moderator could have asked U4 why and to articulate for herself -- rather than breaking things down for the user - thereby risking familiarizing things for U4.**
+
+U4: "That's scarey."
+
+M: OK. [confirm what the user has said]
+
+M: So, if we were to step back-- are you comfortable with what you see here?
+[pointing to Primary Tabs]
+
+U4: "Yeah."
+
+M: [pointing to Secondary Tabs] And what about these? Does this feel scarey or comfortable.
+
+U4: "No. That's fine."
+
+M: "So it seems like the problem for you. If I am hearing you correctly -- is this section for you down here?
+
+U4: "yeah." 
+
+M: If you were to ignore this line and just look at the form -- what would you guess this is?
+
+U4: "An oveview?"
+
+M: This dashed box thing [pointing to the form]
+
+U4: Oh where I put in the information.
+
+[moderator shows other panels and U4 reports they are fine to her]
+
+**Faciliation Note: Here -- using (closed questions) asking user to compare if friendlier, less friendly, no difference at all -- might have been leading too much -- better would have been to ask user to speak what's on their mind -- for the rest of the panels users expresses it makes sense -- but the tabs contain just as many jargony words and same layout issues as the first page that the user reacted strongly against.** 
+
+[moderator navigates to the behaviors tab] 
+
+U$: "It looks fine."
+
+M: Can you talk a little bit about this?
+
+U4: "If I was making a news article/widget I could allow disscussions, I could have basic meta-data, I could categorize it with key words. I could include metatdata, I could make an expiration date, I could exclude from navigation- which makes sense, I could generate a sort URL automatically, I could get the name from the title, don't know really what ... [navigation root] ... next/previous navigation, yes. next/previous navigation toggle (I guess I know what that means) ... referencable I don't really know what that means ...in terms of the end-user I'm talking about, functionality ... "
+
+M: The most confusing was navigation root and this term [related items] makes sense as a term but you're not sure about the outcome?
+
+U4: "Yes."
+
+M: If you had to guess, what do you think this would be [navigation root]. Just a complete guess.
+
+[U4 doesn't notice that the ordering is A-Z; rather she thinks that things next to one another have associated meaning. For example when asked about the meaning of navigation root she thinks its associated with next/previous].
+
+U4:"That would be where the end user would start?
+
+M: Can you talk a little more about that?
+
+U4: "Only because you have the next/previous navigation ... I'm thinking that would be the first page and the next/previous navigation would be the other pages."
+
+M:So you're thinking the navigation root would be the starting point of the page?
+
+U4: "Yes."
+
+--------------------------------------------------
+
+Big take-aways: 
+- U4 was more comfortable when the interface followed exisiting Plone patterns -even when she encounted unfamiliar text or new features when the UI/layout was familar with what she was expecting from Plone, she seemed to be more confident and reported less discomfort
+- U4 needed concrete, specific examples on homepage to feel more comfortable
+- U4 was highly influenced by the wording of text and felt very intimidated and   
+  unsure when she encountered unfamilar words: IDublin Core line
+- However, U4 didn't just want easy to understand/friendly tone/style of wording; really was looking for text to tell her a. context and b. examples -- to describe what the UI means and not just give her instructions
+- Placement influneced her perception of content meaning - thought items next to one another in behaviors were related; if using A-Z it would be helpful to explicitly state that the list is being organized by A-Z to people.
+- Any empty items or new iterface items really underminded her confidance; explicit explainations helped her feel more at ease (when text said 'you have no content items' -- this gave her a clue to what the table meant)
+-U4 wanted a confirmation of successful content type creating and link that took her to the Plone site so she could see it activated; she also wanted some form of information to let her know if it was activated.
+
+
+
+
+
+		
+		
+		
+		
+	
+
+
+
